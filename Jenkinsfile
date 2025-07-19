@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/Ayrola/StudentRegistryAppDemo'
+                git branch: 'main', url: 'https://github.com/ValeriEnchev/StudentRegistryApp.git'
             }
         }
 
